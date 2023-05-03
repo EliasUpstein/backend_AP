@@ -22,6 +22,7 @@ com\portfolio\EliasUpstein\Entity\Skills.class
 com\portfolio\EliasUpstein\Security\Repository\iUsuarioRepository.class
 com\portfolio\EliasUpstein\Service\SProyectos.class
 com\portfolio\EliasUpstein\Dto\dtoSkills.class
+com\portfolio\EliasUpstein\WebConfig.class
 com\portfolio\EliasUpstein\Entity\Persona.class
 com\portfolio\EliasUpstein\Interface\IPersonaService.class
 com\portfolio\EliasUpstein\Security\jwt\JwtProvider.class
