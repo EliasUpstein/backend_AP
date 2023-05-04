@@ -6,13 +6,16 @@ public class dtoEducacion {
     @NotBlank
     private String nombreE;
     @NotBlank
+    private String institucionE;
+    @NotBlank
     private String descripcionE;
 
     public dtoEducacion() {
     }
 
-    public dtoEducacion(String nombreE, String descripcionE) {
+    public dtoEducacion(String nombreE, String institucionE, String descripcionE) {
         this.nombreE = nombreE;
+        this.institucionE = institucionE;
         this.descripcionE = descripcionE;
     }
 
@@ -22,6 +25,14 @@ public class dtoEducacion {
 
     public void setNombreE(String nombreE) {
         this.nombreE = nombreE;
+    }
+    
+    public String getInstitucionE() {
+        return institucionE;
+    }
+
+    public void setInstitucionE(String institucionE) {
+        this.institucionE = institucionE;
     }
 
     public String getDescripcionE() {
